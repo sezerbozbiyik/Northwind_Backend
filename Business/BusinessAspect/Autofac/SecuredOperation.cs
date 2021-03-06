@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Castle.DynamicProxy;
 using Microsoft.Extensions.DependencyInjection;
 using Core.Extensions;
-using Castle.DynamicProxy;
 using Business.Constants;
 
 namespace Business.BusinessAspect.Autofac
